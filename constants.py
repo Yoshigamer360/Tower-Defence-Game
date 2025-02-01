@@ -5,7 +5,7 @@ sidePanel = 300
 screenWidth = tileSize * cols
 screenHeight = tileSize * rows
 fps = 60
-health = 100
+health = 50
 money = 650
 totalLevels = 15
 
@@ -13,7 +13,7 @@ totalLevels = 15
 turretLevels = 4
 buyCost = 200
 upgradeCost = 100
-killReward = 1
+killReward = 10
 levelCompleteReward = 100
 animationSteps = 8
 animationDelay = 15
