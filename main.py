@@ -170,7 +170,7 @@ while run:
             # fast forward option
             world.gameSpeed = 1
             if fastForwardButton.draw(screen):
-                world.gameSpeed = 2
+                world.gameSpeed = 10
             # Spawn enemies
             if pg.time.get_ticks() - lastEnemySpawn > c.spawnCooldown:
                 if world.spawnedEnemies < len(world.enemyList):
